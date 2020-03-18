@@ -28,7 +28,7 @@
 
 // Math Constants
 const uint16_t pulses_per_revolution = 12800;
-const uint16_t belt_mm_per_revolution = 239;
+const uint16_t belt_mm_per_revolution = 210;
 const float belt_reduction = 0.555555555;
 
 float calculate_rpm_from_speed(uint16_t speed_mm)
